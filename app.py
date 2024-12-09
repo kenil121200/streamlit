@@ -112,4 +112,4 @@ with col3:
         st.pyplot(fog_bar)  
         
     else:
-        st.write("Fog density prediction unavailable.")
+        st.write("Fog density unavailable.")
