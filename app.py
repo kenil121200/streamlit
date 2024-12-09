@@ -103,13 +103,12 @@ with col1:
     st.pyplot(occlusion_bar)  
     
 with col2:
-    st.image(image, use_column_width=True) 
+    st.image(image, use_container_width=True) 
 with col3:
     st.markdown('''##### :blue[Fog Density]''')
     
     if fog_density_prediction:
         display_fog_legend()
         st.pyplot(fog_bar)  
-        
     else:
         st.write("Fog density unavailable.")
